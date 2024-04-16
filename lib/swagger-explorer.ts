@@ -381,6 +381,7 @@ export class SwaggerExplorer {
     for (const item of pathToRegexp.parse(path)) {
       pathWithParams += isString(item) ? item : `${item.prefix}{${item.name}}`;
     }
+    pathWithParams = pathWithParams.replace(/\[:]/g, ':').toString();
     return pathWithParams === '/' ? '' : addLeadingSlash(pathWithParams);
   }
 
