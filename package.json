@@ -1,10 +1,10 @@
 {
-  "name": "@nestjs/swagger",
-  "version": "7.3.1",
-  "description": "Nest - modern, fast, powerful node.js web framework (@swagger)",
-  "author": "Kamil Mysliwiec",
+  "name": "@alm1983/nestjs-swagger",
+  "version": "1.0.0",
+  "description": "Nest - modern, fast, powerful node.js web framework",
+  "author": "ALM1983",
   "license": "MIT",
-  "repository": "https://github.com/nestjs/swagger",
+  "repository": "https://github.com/AlmSmartDoctor/nestjs-swagger.git",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier \"lib/**/*.ts\" --write",
