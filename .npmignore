@@ -14,6 +14,7 @@ tsconfig.json
 .prettierrc
 .circleci
 .github
+.idea
 
 # misc
 renovate.json
