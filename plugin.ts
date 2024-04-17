@@ -1,1 +1,1 @@
-export * from './lib/plugin';
+export * from './dist/plugin';

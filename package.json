@@ -1,12 +1,12 @@
 {
-  "name": "@nestjs/swagger",
-  "version": "5.1.4",
+  "name": "@alm1983/nestjs-swagger",
+  "version": "5.1.4-b",
   "description": "Nest - modern, fast, powerful node.js web framework (@swagger)",
-  "author": "Kamil Mysliwiec",
+  "author": "ALM1983",
   "license": "MIT",
-  "repository": "https://github.com/nestjs/swagger",
+  "repository": "https://github.com/AlmSmartDoctor/nestjs-swagger.git",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-index.json",
     "format": "prettier \"lib/**/*.ts\" --write",
     "lint": "eslint 'lib/**/*.ts' --fix",
     "prepublish:next": "npm run build",
